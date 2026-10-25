@@ -16,10 +16,6 @@ With OmniallAI Skills you can query models, manage tokens, check balance, and as
 
 User-level skill — query models, manage tokens, list groups, check balance, and ask OmniallAI usage questions in Claude Code, Codex, OpenClaw, and other Skills-compatible tools.
 
-### omniall-admin (coming soon)
-
-Admin-level skill — channel management, user management, system configuration, and other ops workflows for OmniallAI administrators.
-
 ## Supported AI Editors
 
 All skills work with the following AI coding tools:

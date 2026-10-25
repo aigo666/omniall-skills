@@ -16,10 +16,6 @@ OmniallAI Skills 现已支持在 Claude Code、Codex、OpenClaw 等工具中直�
 
 用户级 Skill — 在 Claude Code、Codex、OpenClaw 等工具中查询模型、管理令牌、查看分组和余额，并直接提问 OmniallAI 使用问题。
 
-### omniall-admin（敬请期待）
-
-管理员级 Skill — 渠道管理、用户管理、系统配置等运维操作。面向 OmniallAI 管理员。
-
 ## 支持的 AI 编辑器
 
 所有 Skills 均可在以下 AI 编码工具中使用：
