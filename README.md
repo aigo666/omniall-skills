@@ -2,7 +2,38 @@
 
 **English** | [中文](README.zh-CN.md)
 
-Skills for managing [OmniallAI](https://omniall.ai) — models, groups, tokens and balance.
+Official OmniallAI skills for AI coding assistants — manage models, tokens, groups and balance, and ask OmniallAI usage questions without leaving your editor.
+
+## Overview
+
+Skills are a lightweight extension protocol that lets AI editors (Claude Code, Codex, OpenClaw, Cursor, Windsurf, and more) talk to OmniallAI inside the coding environment — no browser or admin console required.
+
+With OmniallAI Skills you can query models, manage tokens, check balance, and ask OmniallAI usage questions directly from the assistant.
+
+## Available Skills
+
+### omniall
+
+User-level skill — query models, manage tokens, list groups, check balance, and ask OmniallAI usage questions in Claude Code, Codex, OpenClaw, and other Skills-compatible tools.
+
+### omniall-admin (coming soon)
+
+Admin-level skill — channel management, user management, system configuration, and other ops workflows for OmniallAI administrators.
+
+## Supported AI Editors
+
+All skills work with the following AI coding tools:
+
+| AI editor / coding assistant | Type | Notes |
+| --- | --- | --- |
+| Claude Code | Terminal AI coding assistant | Anthropic official CLI |
+| OpenClaw | Self-hosted AI assistant platform | Supports Skills; call `/omniall` in chat |
+| Cursor | AI-native code editor | Based on VS Code |
+| Windsurf | AI code editor | By Codeium |
+| Cline | VS Code AI extension | Open-source AI coding agent |
+| Codex CLI | Terminal AI coding assistant | OpenAI official CLI |
+
+> Any AI tool that supports the Skills protocol can use OmniallAI Skills.
 
 ## Installation
 

@@ -2,7 +2,38 @@
 
 [English](README.md) | **中文**
 
-用于管理 [OmniallAI](https://omniall.ai) 的 Skill：模型、分组、令牌与余额。
+OmniallAI 官方 AI 编辑器 Skill — 在编码助手中管理模型、令牌、分组与余额，并提问 OmniallAI 使用问题，无需切换到浏览器。
+
+## 概述
+
+Skills 是一种轻量级扩展协议，让 AI 编辑器（如 Claude Code、Codex、OpenClaw、Cursor、Windsurf 等）能够在编码环境内直接与 OmniallAI 交互，无需打开浏览器或管理面板。
+
+OmniallAI Skills 现已支持在 Claude Code、Codex、OpenClaw 等工具中直接执行查询模型、管理令牌、查看余额，以及提问 OmniallAI 使用问题等操作。
+
+## 可用 Skills
+
+### omniall
+
+用户级 Skill — 在 Claude Code、Codex、OpenClaw 等工具中查询模型、管理令牌、查看分组和余额，并直接提问 OmniallAI 使用问题。
+
+### omniall-admin（敬请期待）
+
+管理员级 Skill — 渠道管理、用户管理、系统配置等运维操作。面向 OmniallAI 管理员。
+
+## 支持的 AI 编辑器
+
+所有 Skills 均可在以下 AI 编码工具中使用：
+
+| AI 编辑器 / 编码助手 | 类型 | 备注 |
+| --- | --- | --- |
+| Claude Code | 终端 AI 编程助手 | Anthropic 官方 CLI |
+| OpenClaw | 自托管 AI 助手平台 | 支持 Skills，可在对话中直接调用 `/omniall` 指令 |
+| Cursor | AI 原生代码编辑器 | 基于 VS Code |
+| Windsurf | AI 代码编辑器 | Codeium 出品 |
+| Cline | VS Code AI 扩展 | 开源 AI 编码代理 |
+| Codex CLI | 终端 AI 编程助手 | OpenAI 官方 CLI |
+
+> 任何支持 Skills 协议的 AI 工具都可以使用 OmniallAI Skills。
 
 ## 安装
 
