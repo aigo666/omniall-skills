@@ -1,0 +1,20 @@
+{
+  "name": "omniall-skills",
+  "owner": {
+    "name": "OmniallAI",
+    "url": "https://api.omniall.ai"
+  },
+  "metadata": {
+    "description": "Skills for managing OmniallAI resources — models, groups, tokens and balance.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "omniall",
+      "description": "User-facing OmniallAI operations: query models, check balance, list groups, and manage personal API tokens.",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/omniall"]
+    }
+  ]
+}
