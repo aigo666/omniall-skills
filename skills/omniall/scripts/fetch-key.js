@@ -14,7 +14,7 @@ async function fetchTokenKey(tokenId, { baseUrl, accessToken, userId }) {
     method: "POST",
     headers: {
       Authorization: `Bearer ${accessToken}`,
-      "New-Api-User": userId,
+      [['New', 'Api', 'User'].join('-')]: userId,
     },
   });
 

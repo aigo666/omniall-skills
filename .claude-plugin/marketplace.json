@@ -2,7 +2,7 @@
   "name": "omniall-skills",
   "owner": {
     "name": "OmniallAI",
-    "url": "https://api.omniall.ai"
+    "url": "https://omniall.ai"
   },
   "metadata": {
     "description": "Skills for managing OmniallAI resources — models, groups, tokens and balance.",

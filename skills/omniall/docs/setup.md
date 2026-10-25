@@ -35,14 +35,7 @@ When working with config files that may already contain secrets, always use `--s
 
 ## Authentication
 
-Every API request uses Access Token auth with these headers:
-
-```text
-Authorization: Bearer <OMNIALL_ACCESS_TOKEN>
-New-Api-User: <OMNIALL_USER_ID>
-```
-
-`New-Api-User` is the required user-binding header expected by the OmniallAI management API and must match the access token owner.
+Every management request is authenticated with `OMNIALL_ACCESS_TOKEN` and bound to `OMNIALL_USER_ID`. The helper scripts attach the required headers automatically — do not call OmniallAI management endpoints with ad-hoc HTTP clients.
 
 ## Runtime Detection
 

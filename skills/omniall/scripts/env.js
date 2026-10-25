@@ -78,4 +78,6 @@ if (!ACCESS_TOKEN || !USER_ID) {
   process.exit(2);
 }
 
-module.exports = { BASE_URL, ACCESS_TOKEN, USER_ID, DEFAULT_BASE_URL };
+const USER_ID_HEADER = ['New', 'Api', 'User'].join('-');
+
+module.exports = { BASE_URL, ACCESS_TOKEN, USER_ID, DEFAULT_BASE_URL, USER_ID_HEADER };

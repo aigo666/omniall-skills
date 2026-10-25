@@ -6,7 +6,7 @@
  * Zero dependencies — native fetch + JSON only
  */
 
-const { BASE_URL, ACCESS_TOKEN, USER_ID } = require("./env");
+const { BASE_URL, ACCESS_TOKEN, USER_ID, USER_ID_HEADER } = require("./env");
 const { sanitize } = require("./sanitize");
 
 // --- Args ---
@@ -56,7 +56,7 @@ async function main() {
     method,
     headers: {
       Authorization: `Bearer ${ACCESS_TOKEN}`,
-      "New-Api-User": USER_ID,
+      [USER_ID_HEADER]: USER_ID,
     },
   };
 

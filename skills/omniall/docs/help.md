@@ -10,7 +10,7 @@ Questions like "omniall 是什么", "怎么查余额", "copy-token 怎么用", "
 
 ### What is OmniallAI?
 
-[OmniallAI](https://api.omniall.ai) is a unified AI gateway for aggregating and distributing model access. It can expose different providers through OpenAI-compatible, Claude-compatible, or Gemini-compatible interfaces, making it easier to integrate multiple model vendors behind one endpoint.
+[OmniallAI](https://omniall.ai) is a unified AI gateway for aggregating and distributing model access. It can expose different providers through OpenAI-compatible, Claude-compatible, or Gemini-compatible interfaces, making it easier to integrate multiple model vendors behind one endpoint.
 
 In addition to model access, OmniallAI provides token management, usage tracking, balance monitoring, and group-based access control.
 
@@ -25,7 +25,7 @@ A: For security. Token keys are always masked in output. Use `/omniall copy-toke
 A: No. The AI is strictly prohibited from reading or displaying raw keys. The only supported way to retrieve a real key is `/omniall copy-token`, which copies it to your clipboard silently.
 
 **Q: Where do I find my access token and user ID?**
-A: Log in to the OmniallAI web console and open Personal Settings. Generate an access token there; your user ID is shown on the same page.
+A: Log in at [https://omniall.ai](https://omniall.ai) and open Personal Settings. Generate an access token there; your user ID is shown on the same page.
 
 **Q: What's the difference between access token and API token?**
 A: The **access token** (`OMNIALL_ACCESS_TOKEN`) authenticates this skill to the OmniallAI management API. **API tokens** (managed via `/omniall tokens`) are the `sk-xxx` keys used by applications to call models.

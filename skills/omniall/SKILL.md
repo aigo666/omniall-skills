@@ -1,11 +1,11 @@
 ---
 name: omniall
-description: Assistant for OmniallAI, a unified AI gateway platform (https://api.omniall.ai). Use when the user asks about OmniallAI, managing models, groups, balance, or tokens, or securely copying keys, applying them to config files, or using them in commands without exposing secrets.
+description: Assistant for OmniallAI (https://omniall.ai), a unified AI gateway (API https://api.omniall.ai). Use when the user asks about OmniallAI, managing models, groups, balance, or tokens, or securely copying keys, applying them to config files, or using them in commands without exposing secrets.
 ---
 
 # SKILL: omniall
 
-OmniallAI ([https://api.omniall.ai](https://api.omniall.ai)) is a unified AI gateway platform.
+OmniallAI ([https://omniall.ai](https://omniall.ai), API [https://api.omniall.ai](https://api.omniall.ai)) is a unified AI gateway platform.
 It aggregates multiple model providers behind OpenAI / Claude / Gemini compatible interfaces, and provides model, token, group, and balance management.
 
 ## Security Guidelines
@@ -35,7 +35,7 @@ This skill follows these security guidelines to protect API keys:
 | `groups` | List user groups | `docs/actions-query.md` |
 | `balance` | Show account balance | `docs/actions-query.md` |
 | `tokens` | List API tokens | `docs/actions-token.md` |
-| `create-token` | Create a new API token | `docs/actions-token.md` |
+| `create-token` | Create an API token | `docs/actions-token.md` |
 | `switch-group` | Change a token's group | `docs/actions-token.md` |
 | `copy-token` | Copy real key to clipboard (never shown) | `docs/actions-token.md` |
 | `apply-token` | Apply token key to a config file securely | `docs/actions-config.md` |
@@ -51,7 +51,7 @@ This skill follows these security guidelines to protect API keys:
 | `groups` | `/omniall groups` | List user groups |
 | `balance` | `/omniall balance` | Show account balance |
 | `tokens` | `/omniall tokens` | List API tokens |
-| `create-token` | `/omniall create-token <name> [--group=xxx]` | Create a new API token |
+| `create-token` | `/omniall create-token <name> [--group=xxx]` | Create an API token |
 | `switch-group` | `/omniall switch-group <token_id> <group>` | Change a token's group |
 | `copy-token` | `/omniall copy-token <token_id>` | Copy real key to clipboard (never shown) |
 | `apply-token` | `/omniall apply-token <token_id> <file_path>` | Apply token key to a config file securely |
