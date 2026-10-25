@@ -2,19 +2,13 @@
 
 [English](README.md) | **中文**
 
-OmniallAI 官方 AI 编辑器 Skill — 在编码助手中管理模型、令牌、分组与余额，并提问 OmniallAI 使用问题，无需切换到浏览器。
+[OmniallAI](https://omniall.ai) 官方 Skill — 在 AI 编码助手中管理模型、令牌、分组与余额，并提问使用问题，无需切换到浏览器。
 
 ## 概述
 
 Skills 是一种轻量级扩展协议，让 AI 编辑器（如 Claude Code、Codex、OpenClaw、Cursor、Windsurf 等）能够在编码环境内直接与 OmniallAI 交互，无需打开浏览器或管理面板。
 
 OmniallAI Skills 现已支持在 Claude Code、Codex、OpenClaw 等工具中直接执行查询模型、管理令牌、查看余额，以及提问 OmniallAI 使用问题等操作。
-
-## 可用 Skills
-
-### omniall
-
-用户级 Skill — 在 Claude Code、Codex、OpenClaw 等工具中查询模型、管理令牌、查看分组和余额，并直接提问 OmniallAI 使用问题。
 
 ## 支持的 AI 编辑器
 

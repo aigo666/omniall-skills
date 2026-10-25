@@ -2,19 +2,13 @@
 
 **English** | [中文](README.zh-CN.md)
 
-Official OmniallAI skills for AI coding assistants — manage models, tokens, groups and balance, and ask OmniallAI usage questions without leaving your editor.
+Official [OmniallAI](https://omniall.ai) skill for AI coding assistants — manage models, tokens, groups and balance, and ask OmniallAI usage questions without leaving your editor.
 
 ## Overview
 
 Skills are a lightweight extension protocol that lets AI editors (Claude Code, Codex, OpenClaw, Cursor, Windsurf, and more) talk to OmniallAI inside the coding environment — no browser or admin console required.
 
 With OmniallAI Skills you can query models, manage tokens, check balance, and ask OmniallAI usage questions directly from the assistant.
-
-## Available Skills
-
-### omniall
-
-User-level skill — query models, manage tokens, list groups, check balance, and ask OmniallAI usage questions in Claude Code, Codex, OpenClaw, and other Skills-compatible tools.
 
 ## Supported AI Editors
 
